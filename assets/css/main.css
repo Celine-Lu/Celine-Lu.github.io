@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/pic09.jpg");
+		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -2189,3 +2189,14 @@ input, select, textarea {
 			}
 
 		}
+
+		a.toggle {
+			cursor: pointer;
+			width: 100%;
+			color: #fefefe;
+			border-radius: 0.15em;
+			transition: background 0.3s ease;
+		}
+		a.toggle:hover {
+			background: rgba(230, 230, 230, 0.9);
+		  }
